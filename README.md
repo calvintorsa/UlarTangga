@@ -1,1 +1,1 @@
-# UlarTangga.rb
+# Tugas akhir
