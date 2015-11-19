@@ -1,4 +1,4 @@
-class Ladder
+class Snake
   @num
   @placed
   @posInBoard
