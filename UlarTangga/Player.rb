@@ -23,19 +23,6 @@ class Player
       return a
     end
   end
-  
-  def  gotSnake
-    if @position.isSnake
-      @position.setNum (@position.getNum-10)
-    end
-  end
-
-
-  def gotLadder
-    if @position.isLadder
-      @position.setNum (@position.getNum+10)
-    end
-  end
 
   def getNowPos
     return @position.getNum
