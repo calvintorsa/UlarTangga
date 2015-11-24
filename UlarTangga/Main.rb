@@ -223,7 +223,7 @@ class Board
         if @board[i][j].getNum == @player2.getNowPos
           if @board[i][j].isSnake==true
             if @player2.getNowPos<20 && @player2.getNowPos>10 
-              @player1.setNowPos(@player2.getNowPos-10)
+              @player2.setNowPos(@player2.getNowPos-10)
               puts "Kamu kena ular!"
             else
               rand = Random.rand(31)+10
