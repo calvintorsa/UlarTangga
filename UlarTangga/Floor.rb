@@ -1,46 +1,35 @@
-class Floor 
-    @num
-    @empty
-    @snake
-    @ladder
-
-    def initialize(num,empty, snake, ladder)
-        @num=num
-        @empty=empty
-        @snake=snake
-        @ladder=ladder
-    end
-
-    def setNum(num)
-        @num=num
-    end
-
-    def setSnake(snake)
-        @snake=snake
-    end
-
-    def setLadder(ladder)
-        @ladder=ladder
-    end
-
-    def isEmpty()
-        return @empty
-    end
-
-    def setEmpty(empty)
-        @empty=empty
-    end
-
-    def getNum()
-        return @num
-    end
-
-    def isSnake()
-        return @snake
-    end
-
-    def isLadder()
-        return @ladder
-    end
-
+class Floor
+  @num
+  @snake
+  @ladder
+  
+  def initialize(angka)
+    @num =  angka
+    @snake = false
+    @ladder = false
+  end
+  
+  def setNum(angka)
+    @num =  angka
+  end
+  
+  def getNum
+    return @num
+  end
+  
+  def setSnake(ular)
+    @snake = ular
+  end
+  
+  def setLadder(tangga)
+    @ladder = tangga
+  end
+  
+  def isSnake
+    return @snake
+  end
+  
+  def isLadder
+    return @ladder
+  end
 end
