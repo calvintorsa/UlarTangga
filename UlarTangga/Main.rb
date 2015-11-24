@@ -390,6 +390,9 @@ if input==1
             puts "Selamat P1 Menang!"
             break    
           end
+          else
+            puts "Permainan dihentikan oleh Player 1!"
+            break
         end
       else
         puts "Giliran P2!"
@@ -412,6 +415,9 @@ if input==1
             puts "Selamat P2 Menang!"
             break    
           end
+          else
+            puts "Permainan dihentikan oleh Player 2!"
+            break
         end
       end
     end
@@ -438,6 +444,9 @@ if input==1
             puts "Selamat P1 Menang!"
             break    
           end
+          else
+            puts "Permainan dihentikan oleh Player 1!"
+            break
         end
       else
         puts "Giliran Computer!"
