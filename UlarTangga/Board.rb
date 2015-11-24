@@ -2,8 +2,7 @@ class Board
   @board
   @player1
   @player2
-  @ladder = []
-  @snake = []
+ 
   
   def initialize
     @player1 = Player.new
