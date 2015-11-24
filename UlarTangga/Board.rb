@@ -213,7 +213,7 @@ class Board
   end
   
   def printSnake
-    print "Snake: "
+    print "Snake "
     for i in 0..9
       for j in 0..9
         if @board[i][j].isSnake == true
@@ -226,7 +226,7 @@ class Board
   end
   
   def printLadder
-    print "Ladder: "
+    print "Ladder "
     for i in 0..9
       for j in 0..9
         if @board[i][j].isLadder == true
